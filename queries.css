@@ -147,6 +147,12 @@
     font-size: 2.4rem;
   }
 
+  .testimonial-box-mobile {
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
   .chair-box h3 {
     font-size: 2.1rem;
   }
