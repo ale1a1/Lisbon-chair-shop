@@ -108,8 +108,12 @@
     margin-top: 8rem;
   }
 
+  .header-text {
+    font-size: 2.5rem;
+  }
+
   h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   header img {
@@ -129,6 +133,18 @@
 
   h2 {
     font-size: 3rem;
+  }
+
+  .testimonial-box {
+    grid-column: 2 / -1;
+    align-self: center;
+    font-size: 2.4rem;
+  }
+
+  .testimonial-box h2 {
+    margin-bottom: 2.4rem;
+    margin-bottom: 2.4rem;
+    font-size: 2.4rem;
   }
 
   .chair-box h3 {
