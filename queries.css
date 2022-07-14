@@ -132,7 +132,7 @@
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 3.1rem;
   }
 
   .testimonial-box {
@@ -151,6 +151,24 @@
     display: flex !important;
     flex-direction: column;
     margin-top: 2rem;
+    padding: 2rem;
+  }
+
+  .testimonial-section {
+    margin: 0 0 16.4rem 0;
+    padding: 0;
+  }
+
+  .testimonial-section div {
+    display: inline-block;
+    /* grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr); */
+  }
+
+  .testimonial-section img {
+    width: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
 
   .chair-box h3 {
