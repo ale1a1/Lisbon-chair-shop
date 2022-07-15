@@ -106,21 +106,15 @@
     justify-content: center;
     row-gap: 2rem;
     margin-top: 8rem;
-  }
-
-  .header-text {
-    font-size: 2.5rem;
+    margin-bottom: 14rem;
   }
 
   h1 {
     font-size: 4rem;
     text-align: center;
   }
-
-  header img {
-    width: 100%;
-    align-self: center;
-    justify-self: center;
+  .header-text {
+    font-size: 2.5rem;
   }
 
   .header-text-box {
@@ -128,6 +122,12 @@
     flex-direction: column;
   }
   .header-text-box a {
+    align-self: center;
+    justify-self: center;
+  }
+
+  header img {
+    width: 100%;
     align-self: center;
     justify-self: center;
   }
@@ -190,6 +190,10 @@
     margin-bottom: 1rem;
   }
 
+  .feature h2 {
+    margin-bottom: 4rem;
+  }
+
   .chair-box li {
     font-size: 2rem;
   }
@@ -213,12 +217,8 @@
     font-size: 2rem;
   }
 
-  header {
-    margin-bottom: 13rem;
-  }
-
   section {
-    margin-bottom: 8rem;
+    margin-bottom: 14rem;
   }
 
   #shop-chairs h2 {
