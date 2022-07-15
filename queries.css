@@ -135,7 +135,6 @@
   h2 {
     font-size: 3.5rem;
     text-align: center;
-    margin-bottom: 6rem;
   }
 
   .testimonial-box {
@@ -209,16 +208,21 @@
     margin-bottom: 3.5rem;
   }
 
-  .btn--small {
+  .btn--small,
+  .btn--big {
     font-size: 2rem;
   }
 
   header {
-    margin-bottom: 12rem;
+    margin-bottom: 13rem;
   }
 
   section {
     margin-bottom: 8rem;
+  }
+
+  #shop-chairs h2 {
+    margin-bottom: 6rem;
   }
 }
 
