@@ -74,9 +74,124 @@ h2 {
   padding: 0.8rem 1.2rem;
 }
 
+.btn--text {
+  display: inline-block;
+  background: none;
+  font-size: 1.7rem;
+  font-family: inherit;
+  font-weight: 500;
+  color: #5ec576;
+  border: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
 /* ------------------------ */
 /* COMPONENT STYLES */
 /* ------------------------ */
+
+/*NAVIGATION //////
+////////////////////////////////////////////////////*/
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+  padding: 0 4.6rem;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 9rem;
+  padding: 0 0 0 6rem;
+  z-index: 100;
+}
+
+/* nav and stickly class at the same time */
+.nav-bar.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.nav-img__logo {
+  height: 5rem;
+  width: 5rem;
+  margin-right: 1rem;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__item {
+  margin-left: 4rem;
+}
+
+.nav__link:link,
+.nav__link:visited {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s;
+}
+
+.nav__link--btn:link,
+.nav__link--btn:visited {
+  padding: 1.6rem 3rem;
+  border-radius: 3rem;
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.nav__link--btn:hover,
+.nav__link--btn:active {
+  color: inherit;
+  background-color: #099268;
+  color: #fff;
+}
+
+/* mobile */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
 
 /* HEADER */
 header {
