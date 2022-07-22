@@ -132,8 +132,9 @@ h2 {
 .nav__logo {
   display: flex;
   align-items: center;
-  font-size: 2.5rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .nav-img__logo {
   height: 5rem;
