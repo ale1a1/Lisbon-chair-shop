@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 * {
@@ -23,6 +24,7 @@ body {
   font-family: "inter", sans-serif;
   color: #343a40;
   border-bottom: 8px solid #087f5b;
+  overflow-x: hidden;
 }
 
 .container {
@@ -161,8 +163,8 @@ h2 {
 
 .nav__link--btn:link,
 .nav__link--btn:visited {
-  padding: 1.6rem 3rem;
-  border-radius: 3rem;
+  padding: 1.5rem 2.5rem;
+  border-radius: 2.5rem;
   background-color: #087f5b;
   color: #fff;
 }
@@ -179,7 +181,6 @@ h2 {
   border: none;
   background: none;
   cursor: pointer;
-
   display: none;
 }
 
