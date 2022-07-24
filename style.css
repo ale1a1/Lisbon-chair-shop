@@ -316,7 +316,7 @@ img {
 .testimonial {
   width: 85%;
   position: relative;
-  background-color: #087f5b;
+  background-color: #087f5bde;
   gap: 2rem;
   border-radius: 1.2rem;
 }
@@ -337,20 +337,20 @@ img {
   margin-bottom: 2.4rem;
   font-size: 2.4rem;
   color: #fff;
-  padding: 0 4rem;
+  padding: 0 2rem;
 }
 
 .testimonial-text {
   font-style: italic;
   margin-bottom: 2.4rem;
-  padding: 0 8rem 0 4rem;
+  padding: 0 8rem 0 2rem;
   font-size: 1.6rem;
   line-height: 1.7;
   color: #e6fcf5;
 }
 
 .testimonial-author {
-  padding: 0 4rem;
+  padding: 0 2rem;
   font-size: 1.2rem;
   color: #c3fae8;
 }
