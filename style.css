@@ -129,6 +129,19 @@ h2 {
   z-index: 100;
 }
 
+.logo {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.logo-img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
 /* nav and stickly class at the same time */
 .nav-bar.sticky {
   position: fixed;
@@ -149,11 +162,6 @@ h2 {
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
-}
-.nav-img__logo {
-  height: 5rem;
-  width: 5rem;
-  margin-right: 1rem;
 }
 
 .nav__links {
@@ -247,7 +255,7 @@ img {
   border-radius: 1.2rem;
 }
 
-/*///////////////////////////////////////////////// 
+/*/ ////////////////////////////////////////////////
 //////////   FEATURES  ///////
 /////////////////////////////////////////////////*/
 
@@ -257,9 +265,19 @@ img {
 
 .features-icon {
   stroke: #087f5b;
-  width: 2.4rem;
-  height: 2.4rem;
-  margin-bottom: 2.4rem;
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+.features-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #087f5b2a;
+  height: 5.5rem;
+  width: 5.5rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
 }
 
 .features-title {
@@ -526,24 +544,33 @@ img {
 
 .footer-logo--logo {
   display: flex;
+  gap: 1rem;
   align-items: center;
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin-left: -5px;
-  margin-top: -4px;
+  margin-left: -8px;
+  margin-top: -10px;
+  padding: 2px;
 }
+
 .footer-logo--img {
-  height: 3.5rem;
-  width: 3.5rem;
-  margin-right: 0.5rem;
+  height: 4rem;
+  width: 4rem;
+  margin-right: 0;
 }
 
 .footer-logo--text {
-  color: rgba(5, 5, 5, 0.849);
-  font-size: 2.5rem;
-  font-weight: 600;
+  color: #111314;
+  font-size: 2.4rem;
+  font-weight: 700;
 }
+
+/* .phone-icon {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 0.5rem;
+} */
 
 .social-links {
   list-style: none;
