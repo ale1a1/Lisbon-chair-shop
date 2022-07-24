@@ -47,7 +47,7 @@ section {
 }
 
 h2 {
-  margin-bottom: 7rem;
+  margin-bottom: 10rem;
   font-size: 5.4rem;
   letter-spacing: -0.5px;
   text-align: center;
@@ -252,7 +252,7 @@ img {
 /////////////////////////////////////////////////*/
 
 #features h2 {
-  padding: 0 16.4rem;
+  padding: 8rem 16.4rem 0 16.4rem;
 }
 
 .features-icon {
@@ -292,7 +292,7 @@ img {
 }
 
 #testimonial-section h2 {
-  padding: 0 16.4rem;
+  padding: 6rem 16.4rem 0 16.4rem;
 }
 
 .testimonial {
@@ -319,6 +319,7 @@ img {
   margin-bottom: 2.4rem;
   font-size: 2.4rem;
   color: #fff;
+  padding: 0 4rem;
 }
 
 .testimonial-text {
@@ -331,7 +332,7 @@ img {
 }
 
 .testimonial-author {
-  padding: 0 2rem;
+  padding: 0 4rem;
   font-size: 1.2rem;
   color: #c3fae8;
 }
@@ -432,6 +433,10 @@ img {
 
 #shop-chairs {
   margin-bottom: 24rem;
+}
+
+#shop-chairs h2 {
+  padding: 6rem 16.4rem 0 16.4rem;
 }
 
 .chair {
