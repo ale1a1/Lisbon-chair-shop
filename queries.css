@@ -400,7 +400,7 @@
   header {
     display: grid;
     grid-template-columns: none;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows:auto
     align-items: center;
     justify-content: center;
     row-gap: 2rem;
@@ -411,6 +411,7 @@
   h1 {
     font-size: 4rem;
     text-align: center;
+    padding: 0 3rem 0 3rem;
   }
   .header-text {
     font-size: 2.5rem;
