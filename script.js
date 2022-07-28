@@ -25,6 +25,7 @@ document.querySelector(".nav__links").addEventListener("click", function (e) {
   if (e.target.classList.contains("nav__link")) {
     const id = e.target.getAttribute("href");
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+    nav.classList.toggle("nav-open");
   }
 });
 

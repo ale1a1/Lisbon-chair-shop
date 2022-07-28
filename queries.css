@@ -20,6 +20,33 @@
     margin: auto;
     padding: 0 3.2rem;
   }
+
+  #features h2 {
+    padding: 8rem 9rem 0 9rem;
+  }
+
+  .testimonial-box h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  .testimonial-author {
+    margin-bottom: 2rem;
+  }
+
+  .chair-details {
+    padding: 2.5rem 0rem;
+  }
+
+  .footer-logo--img {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .footer-logo--text {
+    font-size: 1.9rem;
+  }
 }
 
 /**************************/
@@ -30,6 +57,18 @@
   html {
     /* 8px / 16px = 0.5 = 50% */
     font-size: 48%;
+  }
+
+  .nav {
+    padding: 0;
+  }
+
+  .nav__item {
+    margin-left: 0;
+  }
+
+  #features h2 {
+    padding: 8rem 30rem 0 30rem;
   }
 
   .btn--small {
@@ -107,6 +146,44 @@
 }
 
 /**************************/
+/* BELOW 849px  */
+/**************************/
+@media (max-width: 53em) {
+  #features h2 {
+    padding: 8rem 22rem 0 22rem;
+  }
+
+  .dots {
+    bottom: 25%;
+  }
+
+  #shop-chairs h3 {
+    font-size: 2.1rem;
+  }
+
+  .footer-logo--img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .footer-logo--text {
+    font-size: 1.5rem;
+  }
+
+  .footer-logo--logo {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -8px;
+    margin-top: -4px;
+    padding: 2px;
+  }
+}
+
+/**************************/
 /* BELOW 704px (Smaller tablets) */
 /**************************/
 
@@ -158,14 +235,6 @@
 /**************************/
 
 @media (max-width: 34em) {
-  .nav {
-    padding: 0;
-  }
-
-  .nav__item {
-    margin-left: 0;
-  }
-
   header {
     display: grid;
     grid-template-columns: none;
