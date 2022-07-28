@@ -393,6 +393,10 @@
 /**************************/
 
 @media (max-width: 34em) {
+  .container {
+    padding: 0 4rem;
+  }
+
   header {
     display: grid;
     grid-template-columns: none;
@@ -400,8 +404,8 @@
     align-items: center;
     justify-content: center;
     row-gap: 2rem;
-    margin-top: 8rem;
-    margin-bottom: 14rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
   }
 
   h1 {
@@ -410,6 +414,7 @@
   }
   .header-text {
     font-size: 2.5rem;
+    padding: 0 2rem;
   }
 
   .header-text-box {
@@ -422,8 +427,8 @@
   }
 
   header img {
-    width: 100%;
-    align-self: center;
+    width: 80%;
+    align-self: start;
     justify-self: center;
   }
 
