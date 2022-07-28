@@ -167,7 +167,7 @@
   }
 
   .footer-logo--text {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .footer-logo--logo {
@@ -264,7 +264,7 @@
 
   .features h2 {
     margin-bottom: 4rem;
-    padding: 11rem 16.4rem 0 16.4rem;
+    padding: 11rem 10rem 0 10rem;
   }
 
   /* .testimonial-section {
@@ -283,6 +283,7 @@
 
   #testimonial-section h2 {
     margin-bottom: 7rem;
+    padding: 6rem 10rem 0 10rem;
   }
 
   .slide .grid-3-cols {
@@ -292,7 +293,8 @@
   }
 
   .testimonial {
-    width: 80%;
+    width: 75%;
+    overflow: hidden;
   }
 
   .testimonial img {
@@ -317,16 +319,18 @@
   }
 
   .slider__btn--right {
-    right: 4%;
+    right: 5%;
   }
   .slider__btn--left {
-    left: 4%;
+    left: 5%;
   }
   #shop-chairs h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 6rem 10rem 0 10rem;
   }
+
   #shop-chairs div {
     margin: 8rem auto;
     width: 75%;
@@ -353,6 +357,34 @@
     margin: 0 auto !important;
     font-size: 2rem;
     justify-content: space-around;
+  }
+
+  .grid--footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+
+  .footer-logo--logo {
+    margin-left: -8px;
+    margin-top: -12px;
+  }
+  .footer-logo--img {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+
+  .footer-logo--text {
+    font-size: 2rem;
   }
 }
 
