@@ -21,7 +21,7 @@
     padding: 0 3.2rem;
   }
 
-  #features h2 {
+  .features h2 {
     padding: 8rem 9rem 0 9rem;
   }
 
@@ -67,7 +67,7 @@
     margin-left: 0;
   }
 
-  #features h2 {
+  .features h2 {
     padding: 8rem 30rem 0 30rem;
   }
 
@@ -149,7 +149,7 @@
 /* BELOW 849px  */
 /**************************/
 @media (max-width: 53em) {
-  #features h2 {
+  .features h2 {
     padding: 8rem 22rem 0 22rem;
   }
 
@@ -188,6 +188,99 @@
 /**************************/
 
 @media (max-width: 44em) {
+  .container {
+    padding: 0 8rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: none;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 14rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 0rem 5rem 0 5rem;
+  }
+
+  .header-text {
+    font-size: 2.5rem;
+  }
+
+  .header-text-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-text-box a {
+    align-self: center;
+    justify-self: center;
+  }
+
+  header img {
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .btn--text {
+    align-self: center;
+    font-size: 2rem;
+  }
+
+  .features .grid-3-cols {
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .feature {
+    padding: 1.5rem 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-icon {
+    margin-bottom: 1rem;
+  }
+
+  .features h2 {
+    margin-bottom: 4rem;
+    padding: 11rem 16.4rem 0 16.4rem;
+  }
+
+  .testimonial-section {
+    margin: 0 4rem 16.4rem 4rem;
+  }
+  .testimonial-section div {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .grid-3-cols {
+    display: inline-block;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 8rem;
+  }
+
+  .testimonial img {
+    width: 50%;
+  }
+
+  .slider {
+    height: 60rem;
+  }
+
   #shop-chairs h2 {
     display: flex;
     flex-direction: column;
@@ -197,14 +290,6 @@
     margin: 8rem auto;
     width: 75%;
     grid-template-columns: 1fr;
-  }
-  .testimonial-section {
-    margin: 0 4rem 16.4rem 4rem;
-  }
-  .testimonial-section div {
-    display: grid;
-    grid-template-columns: none;
-    grid-template-rows: repeat(2, 1fr);
   }
 
   .chair {
@@ -267,11 +352,6 @@
     width: 100%;
     align-self: center;
     justify-self: center;
-  }
-
-  h2 {
-    font-size: 3.5rem;
-    text-align: center;
   }
 
   .testimonial-box {
