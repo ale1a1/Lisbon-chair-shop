@@ -479,10 +479,10 @@
   }
 
   .slider__btn {
-    top: 50%;
+    top: 60%;
     height: 4rem;
     width: 4rem;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .chair-box h3 {
