@@ -529,13 +529,12 @@
   }
 
   .chair-details {
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
   }
 
   .btn--small,
   .btn--big {
-    font-size: 1.6rem;
-    margin-top: 0.3rem;
+    font-size: 1.8rem;
   }
 
   section {
