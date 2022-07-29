@@ -550,6 +550,19 @@
   #shop-chairs {
     margin-bottom: 8rem;
   }
+
+  .footer-logo--logo {
+    margin-left: -8px;
+    margin-top: -6px;
+  }
+  .footer-logo--img {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .footer-logo--text {
+    font-size: 1.8rem;
+  }
 }
 
 /* - Font sizes (px)
