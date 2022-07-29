@@ -563,6 +563,10 @@
   .footer-logo--text {
     font-size: 1.8rem;
   }
+
+  .contact-line {
+    margin-left: -20px;
+  }
 }
 
 /* - Font sizes (px)
