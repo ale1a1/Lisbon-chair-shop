@@ -322,6 +322,7 @@ img {
   border-radius: 1.2rem;
   /* border: solid 1px #343a40;
   box-shadow: 2px 2px #888888bd; */
+  border-top: solid 0.5px rgba(0, 0, 0, 0.034);
   box-shadow: 0 2rem 3rem rgb(0, 0, 0, 0.1);
   border-radius: 1.2rem;
 }
