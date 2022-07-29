@@ -317,11 +317,13 @@ img {
 .testimonial {
   width: 85%;
   position: relative;
-  background-color: #087f5b2a;
+  /* background-color: #087f5b2a; */
   gap: 2rem;
   border-radius: 1.2rem;
-  border: solid 1px #343a40;
-  box-shadow: 2px 2px #888888bd;
+  /* border: solid 1px #343a40;
+  box-shadow: 2px 2px #888888bd; */
+  box-shadow: 0 2rem 3rem rgb(0, 0, 0, 0.1);
+  border-radius: 1.2rem;
 }
 
 .testimonial img {
