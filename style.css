@@ -397,6 +397,7 @@ img {
 } */
 
 .slider__btn {
+  padding-bottom: 6.5px;
   position: absolute;
   top: 30%;
   z-index: 10;
