@@ -1,0 +1,12 @@
+{
+  "name": "lisbon-chair-shop",
+  "version": "1.0.0",
+  "description": "Lisbon Chair Shop – static site",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "npx live-server --port=3000 --open=index.html",
+    "start": "npx live-server --port=3000 --open=index.html"
+  }
+}
